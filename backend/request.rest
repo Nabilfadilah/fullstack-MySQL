@@ -1,0 +1,28 @@
+### 
+GET http://localhost:5000/users
+
+### 
+GET http://localhost:5000/users/1
+
+### 
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "name": "astaga",
+    "email": "nabilll@gmail.com",
+    "gender": "Male"
+}
+
+### 
+PUT http://localhost:5000/users/2
+Content-Type: application/json
+
+{
+    "name": "coba edit data",
+    "email": "bismillah@gmail.com",
+    "gender": "Male"
+}
+
+### 
+DELETE http://localhost:5000/users/3
