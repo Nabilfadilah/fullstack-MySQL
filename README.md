@@ -1,2 +1,2 @@
 # fullstack-MySQL
-Mencoba membuat CRUD 
+Mencoba membuat CRUD dengan MySQL
